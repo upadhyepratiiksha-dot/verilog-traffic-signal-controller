@@ -1,4 +1,4 @@
-module cyclic_lampp(clock, light);
+module traffic_light_controller(clock, light);
  input clock;
  output reg [0:2] light;
  parameter S0=0, S1=1, S2=2;
